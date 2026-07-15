@@ -185,10 +185,32 @@ document.addEventListener('DOMContentLoaded', () => {
       const trigger = item.querySelector('.panes__vertical-trigger');
       if (trigger) {
         trigger.addEventListener('click', () => {
-          updatePanesLayout(index);
+          if (!window.matchMedia("(max-width: 991px)").matches) {
+            updatePanesLayout(index);
+          } else {
+            const isActive = item.classList.contains('active');
+            paneItems.forEach(i => i.classList.remove('active'));
+            if (!isActive) item.classList.add('active');
+          }
         });
       }
     });
+
+    // Observer para scroll no mobile
+    const observer = new IntersectionObserver((entries) => {
+      if (!window.matchMedia("(max-width: 991px)").matches) return;
+      
+      entries.forEach(entry => {
+        if (entry.isIntersecting && entry.intersectionRatio > 0) {
+          paneItems.forEach(i => i.classList.remove('active'));
+          entry.target.classList.add('active');
+        }
+      });
+    }, {
+      rootMargin: "-20% 0px -40% 0px"
+    });
+
+    paneItems.forEach(item => observer.observe(item));
   }
 
   // ==========================================================================
