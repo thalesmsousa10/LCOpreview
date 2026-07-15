@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="LCO Advocacia Empresarial - Boutique jurídica de alta performance especialista em Direito Tributário, Societário, Contratos e Planejamento Sucessório.">
+  <title>LCO Advocacia Empresarial | Inteligência Tributária e Societária</title>
+  
+  <!-- Google Fonts: Outfit & Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" referrerpolicy="no-referrer" />
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="./Imagens/favicon.png">
+  <link rel="apple-touch-icon" href="./Imagens/favicon.png">
+  
+  <!-- SEO: Open Graph e Canonical -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.advogadoslco.com.br/">
+  <meta property="og:title" content="LCO Advocacia Empresarial | Inteligência Tributária e Societária">
+  <meta property="og:description" content="Boutique jurídica de alta performance especialista em Direito Tributário, Societário, Contratos e Planejamento Patrimonial.">
+  <meta property="og:image" content="https://www.advogadoslco.com.br/Imagens/luis_rodrigo_hero.jpg">
+  <meta property="og:locale" content="pt_BR">
+  <link rel="canonical" href="https://www.advogadoslco.com.br/">
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Preloader Animado LCO -->
+  <div id="preloader" class="preloader">
+    <div class="preloader__logo-wrap">
+      <div class="preloader__ring preloader__ring--2"></div>
+      <div class="preloader__ring preloader__ring--1"></div>
+      <img src="./Imagens/favicon.png" alt="LCO Advocacia" class="preloader__logo">
+    </div>
+    <div class="preloader__bar"></div>
+    <p class="preloader__text">LCO Advocacia</p>
+  </div>
+
+  <!-- Header Fixo Premium com Barra Topo -->
+  <header class="header transparent">
+    <div class="header-top">
+      <div class="container header-top-container">
+        <div class="header-top-info">
+          <a href="mailto:atendimento@advogadoslco.com.br"><i class="fa-solid fa-envelope"></i> atendimento@advogadoslco.com.br</a>
+          <a href="tel:5511914548956"><i class="fa-solid fa-phone"></i> (11) 91454-8956</a>
+        </div>
+        <div class="header-top-social">
+          <a href="https://linkedin.com/company/lco-advocacia" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="https://instagram.com/lco.advocacia" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="header-main">
+      <div class="container header-container">
+        <a href="index.html" class="logo-link" aria-label="LCO Advocacia Home">
+          <img src="./Imagens/LCO 3D.png" alt="LCO Advocacia Empresarial" class="logo-img">
+        </a>
+        
+        <!-- Navegação Principal Multipáginas -->
+        <nav class="nav-menu" id="navMenu">
+          <a href="index.html" class="nav-link active">Início</a>
+          <a href="sobre.html" class="nav-link">O Escritório</a>
+          <a href="atuacao.html" class="nav-link">Áreas de Atuação</a>
+          <a href="contato.html" class="nav-link">Contato</a>
+        </nav>
+        
+        <div class="header-actions">
+          <a href="contato.html" class="btn btn-gold btn-nav">
+            <span>Entre em Contato</span>
+            <i class="fa-solid fa-paper-plane"></i>
+          </a>
+          
+          <!-- Menu Hambúrguer Mobile -->
+          <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Abrir menu de navegação">
+            <span class="hamburger-bar"></span>
+            <span class="hamburger-bar"></span>
+            <span class="hamburger-bar"></span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Conteúdo Principal -->
+  <main>
+    
+    <!-- Hero Imersiva 100vh estilo Hafnia -->
+    <section id="home" class="hero-immersive">
+      <div class="hero-immersive__bg">
+        <img src="./Imagens/luis_hero.jpg" alt="Dr. Luís Fernando no escritório LCO" style="object-position: center top;">
+      </div>
+      <div class="hero-immersive__content">
+        <h1 class="hero-immersive__title reveal">
+          Inteligência Tributária & Segurança Jurídica de <span class="italic">Alta Performance</span>
+        </h1>
+        <p class="hero-immersive__desc reveal delay-100">
+          Unimos a robustez da advocacia estratégica e a precisão técnica da contabilidade corporativa para estruturar defesas tributárias sólidas, planejamento societário inteligente e blindagem patrimonial.
+        </p>
+        <div class="reveal delay-200">
+          <a href="contato.html" class="link-premium">
+            <div class="link-premium__circle-wrap">
+              <span class="link-premium__circle"></span>
+            </div>
+            <span>Falar com um Especialista</span>
+          </a>
+        </div>
+      </div>
+      
+      <!-- Indicador de Scroll vertical -->
+      <div class="scroll-indicator" onclick="document.getElementById('about-summary').scrollIntoView({behavior: 'smooth'})">
+        <span class="scroll-indicator__text">Rolar para ler</span>
+        <div class="scroll-indicator__line-wrapper">
+          <div class="scroll-indicator__line"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção Breve Resumo do Escritório (Boutique Grid Assimétrico) -->
+    <section id="about-summary" class="about-summary light-section" style="padding: 8rem 0;">
+      <div class="container">
+        <div class="boutique-grid">
+          <div class="boutique-grid__media reveal">
+            <img src="./Imagens/quem_somos_lco.png" alt="Ambiente de Reuniões LCO Advocacia" loading="lazy">
+          </div>
+          <div class="boutique-grid__text reveal delay-100">
+            <span class="section-badge">Quem Somos</span>
+            <h2 class="section-title">Estamos aqui para lutar a favor do seu <span class="italic">direito empresarial</span>.</h2>
+            <p class="about-lead" style="font-size: 1.15rem; font-weight: 400; color: var(--text-primary); margin-bottom: 1.5rem;">
+              A LCO Advocacia foi concebida sob o modelo de boutique jurídica de negócios de alta performance.
+            </p>
+            <p style="margin-bottom: 2rem;">
+              Sob a liderança do Dr. Luís Fernando e do Dr. Rodrigo Alves, nossa prática é voltada para a gestão de alta complexidade em Direito Tributário, Societário, Contratos e Holdings. Desenvolvemos estratégias sob medida que garantem conformidade técnica absoluta e segurança para o crescimento sustentável de sua empresa.
+            </p>
+            <a href="sobre.html" class="link-premium">
+              <div class="link-premium__circle-wrap">
+                <span class="link-premium__circle"></span>
+              </div>
+              <span>Conhecer o Escritório</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. Seção Resumo de Especialidades (Cards em Grid) -->
+    <section class="solutions-section">
+      <div class="container">
+        <div class="text-center reveal">
+          <span class="section-badge">Nossas Soluções</span>
+          <h2 class="section-title">Serviços Jurídicos Especializados</h2>
+          <p class="specialties-lead" style="margin: 0 auto 3rem; max-width: 700px;">
+            Estratégias jurídicas e de governança integradas para a consolidação e segurança do patrimônio empresarial.
+          </p>
+        </div>
+
+        <div class="solutions-grid">
+          <!-- Card 1: Direito Empresarial -->
+          <div class="solution-card reveal">
+            <div class="solution-glow"></div>
+            <div class="solution-icon"><i class="fa-solid fa-briefcase"></i></div>
+            <h3>Direito Empresarial</h3>
+            <p>Visão de governança geral sobre estruturação corporativa, mitigação de passivos operacionais e termos comerciais estratégicos.</p>
+            <a href="atuacao.html" class="link-premium">
+              <div class="link-premium__circle-wrap">
+                <span class="link-premium__circle"></span>
+              </div>
+              <span>Saber Mais</span>
+            </a>
+          </div>
+          
+          <!-- Card 2: Societário & Contratos -->
+          <div class="solution-card reveal delay-100">
+            <div class="solution-glow"></div>
+            <div class="solution-icon"><i class="fa-solid fa-file-signature"></i></div>
+            <h3>Direito Societário & Contratos</h3>
+            <p>Acordos de sócios meticulosos, estruturação de vesting para parcerias, atos corporativos e contratos estratégicos de investimento.</p>
+            <a href="atuacao.html" class="link-premium">
+              <div class="link-premium__circle-wrap">
+                <span class="link-premium__circle"></span>
+              </div>
+              <span>Saber Mais</span>
+            </a>
+          </div>
+
+          <!-- Card 3: Direito Tributário -->
+          <div class="solution-card reveal delay-200">
+            <div class="solution-glow"></div>
+            <div class="solution-icon"><i class="fa-solid fa-shield-halved"></i></div>
+            <h3>Direito Tributário</h3>
+            <p>Planejamento tributário estratégico, reestruturação societária fiscal e defesas especializadas em autos de infração e execuções.</p>
+            <a href="atuacao.html" class="link-premium">
+              <div class="link-premium__circle-wrap">
+                <span class="link-premium__circle"></span>
+              </div>
+              <span>Saber Mais</span>
+            </a>
+          </div>
+
+          <!-- Card 4: Planejamento Patrimonial -->
+          <div class="solution-card reveal delay-300">
+            <div class="solution-glow"></div>
+            <div class="solution-icon"><i class="fa-solid fa-crown"></i></div>
+            <h3>Planejamento Patrimonial</h3>
+            <p>Holdings patrimoniais familiares, proteção de ativos consolidados e estruturação sucessória ordenada em vida.</p>
+            <a href="atuacao.html" class="link-premium">
+              <div class="link-premium__circle-wrap">
+                <span class="link-premium__circle"></span>
+              </div>
+              <span>Saber Mais</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="text-center reveal" style="margin-top: 4rem;">
+          <a href="atuacao.html" class="link-premium">
+            <div class="link-premium__circle-wrap">
+              <span class="link-premium__circle"></span>
+            </div>
+            <span>Ver Todas as Soluções</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Seção de Diferenciais -->
+    <section class="differentials-section light-section">
+      <div class="container">
+        <div class="text-center reveal">
+          <span class="section-badge">Por que nos escolher</span>
+          <h2 class="section-title">O que nos diferencia no <span class="italic">mercado jurídico</span></h2>
+          <p class="specialties-lead" style="margin: 0 auto 4rem; max-width: 650px;">
+            Nossa estrutura foi construída para oferecer o que os grandes escritórios não conseguem: atenção total, estratégia customizada e parceria de longo prazo.
+          </p>
+        </div>
+        <div class="differentials-grid">
+          <div class="differential-card reveal">
+            <span class="differential-number">01</span>
+            <div class="differential-icon"><i class="fa-solid fa-gem"></i></div>
+            <h3>Modelo Boutique</h3>
+            <p>Portfólio controlado de clientes para garantir atenção personalizada e estratégica em cada mandato, sem perda de qualidade.</p>
+          </div>
+          <div class="differential-card reveal delay-100">
+            <span class="differential-number">02</span>
+            <div class="differential-icon"><i class="fa-solid fa-user-tie"></i></div>
+            <h3>Sócios no Front</h3>
+            <p>Nossos sócios fundadores atuam diretamente em todos os processos e estratégias. Você sempre fala com quem decide.</p>
+          </div>
+          <div class="differential-card reveal delay-200">
+            <span class="differential-number">03</span>
+            <div class="differential-icon"><i class="fa-solid fa-chart-line"></i></div>
+            <h3>Visão Estratégica</h3>
+            <p>Unimos expertise jurídica e contábil para criar soluções que vão além da defesa — protegemos e potencializamos o seu negócio.</p>
+          </div>
+          <div class="differential-card reveal delay-300">
+            <span class="differential-number">04</span>
+            <div class="differential-icon"><i class="fa-solid fa-handshake"></i></div>
+            <h3>Transparência Total</h3>
+            <p>Comunicação clara, prazos cumpridos e atualizações periódicas. Você sempre sabe exatamente o que está acontecendo.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção FAQ -->
+    <section class="faq-section">
+      <div class="container">
+        <div class="text-center reveal">
+          <span class="section-badge">Dúvidas Frequentes</span>
+          <h2 class="section-title">Perguntas <span class="italic">Frequentes</span></h2>
+          <p class="specialties-lead" style="margin: 0 auto 4rem; max-width: 650px;">
+            Esclarecemos as principais dúvidas sobre nossos serviços jurídicos e como podemos apoiar a sua empresa.
+          </p>
+        </div>
+        <div class="faq-list reveal">
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>Como funciona a primeira consulta?</span>
+              <i class="fa-solid fa-plus faq-icon"></i>
+            </button>
+            <div class="faq-answer">
+              <p>A primeira consulta é um diagnóstico estratégico gratuito. Em uma reunião de até 60 minutos, nossos sócios analisam a situação jurídica e tributária da sua empresa, identificam riscos e apresentam as melhores soluções disponíveis.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>Quais tipos de empresa vocês atendem?</span>
+              <i class="fa-solid fa-plus faq-icon"></i>
+            </button>
+            <div class="faq-answer">
+              <p>Atendemos empresas de todos os portes e segmentos, com foco em negócios consolidados, startups em fase de captação e empresas familiares que buscam planejamento sucessório. Também atendemos sócios e diretores de forma individualizada.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>Como é estruturado o honorário jurídico?</span>
+              <i class="fa-solid fa-plus faq-icon"></i>
+            </button>
+            <div class="faq-answer">
+              <p>Os honorários são definidos caso a caso, de acordo com a complexidade e o escopo do serviço. Trabalhamos com retainer mensal (assessoria contínua), honorário fixo por projeto e, em contencioso, avaliamos a viabilidade de êxito. Tudo é acordado e formalizado previamente.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>O que é uma holding familiar e quando ela é indicada?</span>
+              <i class="fa-solid fa-plus faq-icon"></i>
+            </button>
+            <div class="faq-answer">
+              <p>Uma holding familiar é uma sociedade criada para concentrar e administrar os bens e participações societárias de uma família. É indicada para quem possui patrimônio significativo, quer reduzir a carga tributária sobre herança, evitar conflitos entre herdeiros e garantir a continuidade dos negócios de forma ordenada.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>Vocês atendem empresas fora de São Paulo?</span>
+              <i class="fa-solid fa-plus faq-icon"></i>
+            </button>
+            <div class="faq-answer">
+              <p>Sim. Embora nosso escritório físico esteja na Avenida Brigadeiro Faria Lima, em São Paulo, atendemos clientes em todo o território nacional de forma remota, com reuniões por videoconferência e assinatura digital de documentos.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Botão Flutuante do WhatsApp -->
+  <a href="https://wa.me/5511914548956" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Falar pelo WhatsApp">
+    <div class="whatsapp-float-pulse"></div>
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <!-- Rodapé Institucional Expandido -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <a href="index.html"><img src="./Imagens/LCO 3D.png" alt="LCO Advocacia Empresarial" class="footer-logo"></a>
+          <p class="footer-desc">Boutique jurídica de alta performance especializada em Direito Tributário, Societário, Contratos e Planejamento Patrimonial.</p>
+          <div class="footer-social">
+            <a href="https://linkedin.com/company/lco-advocacia" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://instagram.com/lco.advocacia" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://wa.me/5511914548956" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+          </div>
+        </div>
+        <div class="footer-nav">
+          <h4 class="footer-heading">Navegação</h4>
+          <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="sobre.html">O Escritório</a></li>
+            <li><a href="atuacao.html">Áreas de Atuação</a></li>
+            <li><a href="contato.html">Contato</a></li>
+          </ul>
+        </div>
+        <div class="footer-nav">
+          <h4 class="footer-heading">Especialidades</h4>
+          <ul>
+            <li><a href="atuacao.html">Direito Empresarial</a></li>
+            <li><a href="atuacao.html">Societário &amp; Contratos</a></li>
+            <li><a href="atuacao.html">Direito Tributário</a></li>
+            <li><a href="atuacao.html">Planejamento Patrimonial</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact-col">
+          <h4 class="footer-heading">Contato</h4>
+          <div class="footer-contact-items">
+            <div class="footer-contact-item">
+              <i class="fa-solid fa-location-dot"></i>
+              <span>Av. Brigadeiro Faria Lima, nº 1572, Sala 1022, Jardim Paulistano, São Paulo/SP</span>
+            </div>
+            <div class="footer-contact-item">
+              <i class="fa-solid fa-phone"></i>
+              <a href="tel:5511914548956">(11) 91454-8956</a>
+            </div>
+            <div class="footer-contact-item">
+              <i class="fa-solid fa-envelope"></i>
+              <a href="mailto:atendimento@advogadoslco.com.br">atendimento@advogadoslco.com.br</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container footer-bottom-container">
+        <p>&copy; 2026 LCO Advocacia Empresarial. Todos os direitos reservados. OAB/SP 123.456</p>
+        <div class="footer-links">
+          <a href="privacidade.html">Políticas de Privacidade</a>
+          <a href="termos.html">Termos e Condições</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Custom Script -->
+  <script src="script.js" defer></script>
+</body>
+</html>
