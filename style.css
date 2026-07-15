@@ -1482,13 +1482,22 @@ textarea:focus-visible {
     margin: 0 auto;
   }
 
-  .about-summary-grid {
+  .about-summary-grid, .boutique-grid {
     grid-template-columns: 1fr;
     gap: 3.5rem;
   }
 
-  .about-summary-visual {
+  .about-summary-visual, .boutique-grid__media {
     order: -1;
+    grid-column: 1 / -1;
+  }
+
+  .boutique-grid__text {
+    grid-column: 1 / -1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .solutions-grid {
